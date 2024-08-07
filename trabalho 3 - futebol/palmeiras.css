@@ -1,0 +1,465 @@
+p {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #006337;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 110px;
+    top: 5px;
+    bottom: 10px;
+    left: 35%;
+    transform: translate(-35%);
+    background: rgb(142,198,123);
+    background: linear-gradient(90deg, rgba(142,198,123,1) 0%, #0cad65 45%, rgb(62, 99, 3) 92%);
+    border: 2px solid white;
+}
+
+.b, .c {
+    position: absolute;
+    top: 20%;
+}
+.a {
+    left: 1%;
+    top: 5%;
+}
+
+.b {
+    left: 70%;
+}
+
+.c {
+    left: 85%;
+}
+
+.info {
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    top: 35%;
+
+}
+
+.quatro {
+    left: 11%;
+}
+
+.cinco {
+    left: 26.5%;
+}
+
+.seis {
+    left: 44%;
+}
+
+.sete {
+    left: 55%;
+}
+
+main {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    top: 20px;
+    height: 10000px;
+}
+
+.videoI {
+    background-color: #006337;
+    height: 750px;
+}
+video {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    border: 10px #ffffff dotted;
+}
+
+.estadio {
+    position: absolute;
+    top: 900px;
+    right: 10px;
+    left: 0.5px;
+}
+
+/* historia */
+.background { 
+    height: 1500px;
+    background: #006337;
+background: linear-gradient(180deg, #006337 3%, rgba(123,198,130,1) 46%, rgba(119,255,0,1) 89%);
+}
+
+
+.qns, .titulo, .origem, .tituloI, .objetivo, .tituloII, .hed {
+    position: absolute;
+    background-color: #00a159;
+    border: rgb(53, 138, 57) 2px solid;
+    color: rgb(239, 240, 239);
+}
+
+.titulo, .tituloI, .tituloII {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    
+}
+
+.qns {
+    padding: 0 760px;
+    top: 760px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.qns > h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+    line-height: 10px;
+    letter-spacing: 2px;
+}
+
+.titulo {
+    top: 930px;
+    left: 10px;
+    padding: 0.3% 5%;
+
+}
+
+.origem {
+    margin-right: 35%;
+    top: 1040px;
+    left: 0.5%;
+}
+
+.origem > p {
+    font-size: 20px;
+    margin: 3% 5%;
+}
+
+.d {
+    position: absolute;
+    left: 1300px;
+    top: 1000px;
+}
+
+ .tituloI{
+    top: 1330px;
+    left: 1436px;
+    padding: 0.3% 5%;
+}
+
+.objetivo {
+    margin-right: 0.5%;
+    top: 1440px;
+    left: 550px;
+}
+
+.objetivo > p {
+    font-size: 20px;
+    margin: 3% 5%;
+}
+
+.e {
+    position: absolute;
+    right: 1330px;
+    top: 1415px;
+}
+
+.tituloII {
+    top: 1730px;
+    left: 10px;
+    padding: 0.3% 5%;
+}
+
+.hed {
+    margin-right: 32%;
+    top: 1850px;
+    left: 0.5%;
+}
+
+.hed > p {
+    font-size: 20px;
+    margin: 3% 5%;
+}
+
+.f {
+    position: absolute;
+    left: 1300px;
+    top: 1840px;
+}
+
+/* jogadoras */
+
+.gramado {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background: green;
+    border: 10px white solid;
+    height: 1400px;
+    width: 1600px;
+    margin-left: 10px;
+}
+
+.jogadoraI {
+    position: absolute;
+    background: green;
+    border: 10px white solid;
+    height: 250px;
+    width: 650px;
+    right: 32%;
+    bottom: 74.2%;
+}
+.goleira {
+    position: absolute;
+    background-color: #006337;
+    border: rgb(251, 253, 236) 1px solid;
+    width: 220px;
+    height: 300px;
+    padding-top: 10px;
+    top: 20px;
+    left: 229px;
+}
+.gI{
+    position: absolute;
+    left: 4px;
+}
+.gI > h2 {
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 2px;background-color: #006337;
+    border:  2px solid;
+    color: rgb(251, 253, 236);
+    padding: 0 45px;
+    left: 2px;
+}
+.gI > h3 {
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;background-color: #ffffff;
+    border:  2px solid;
+    color: #006337;
+    padding: 0 50px;
+    top: 350px;
+    left: 18px;
+}
+
+.jogadoraII {
+        position: absolute;
+        border: 10px white solid;
+        height: 550px;
+        width: 1050px;
+        right: 20.5%;
+        bottom: 71.2%;
+}
+.zagueiraI {
+        position: absolute;
+        background-color: #006337;
+        border: rgb(251, 253, 236) 1px solid;
+        width: 220px;
+        height: 300px;
+        padding-top: 10px;
+        top: 455px;
+        left: 750px;
+}
+.zI > h2 {
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 2px;background-color: #006337;
+    border:  2px solid;
+    color: rgb(251, 253, 236);
+    padding: 0 40px;
+    left: 13px;
+}
+
+.zI > h3 {
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;background-color: #ffffff;
+    border:  2px solid;
+    color: #006337;
+    padding: 0 40px;
+    top: 360px;
+    left: 21px;
+}
+
+.jogadoraIII {
+    position: absolute;
+    height: 550px;
+    width: 1050px;
+    right: 20.5%;
+    bottom: 71.2%;
+}
+.zagueiraII {
+    position: absolute;
+    background-color: #006337;
+    border: rgb(251, 253, 236) 1px solid;
+    width: 220px;
+    height: 300px;
+    padding-top: 10px;
+    top: 450px;
+    left: 410px;
+}
+.zII > h2 {
+position: absolute;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+line-height: 50px;
+letter-spacing: 2px;background-color: #006337;
+border:  2px solid;
+color: rgb(251, 253, 236);
+padding: 0 40px;
+left: 13px;
+}
+.zII > h3 {
+position: absolute;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 2px;background-color: #ffffff;
+border:  2px solid;
+color: #006337;
+padding: 0 40px;
+top: 360px;
+left: 18px;
+}
+
+.jogadoraIV {
+    position: absolute;
+    height: 550px;
+    width: 1050px;
+    right: 20.5%;
+    bottom: 71.2%;
+}
+.zagueiraIII {
+    position: absolute;
+    background-color: #006337;
+    border: rgb(251, 253, 236) 1px solid;
+    width: 220px;
+    height: 300px;
+    padding-top: 10px;
+    top: 450px;
+    left: 60px;
+}
+.zIII > h2 {
+position: absolute;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+line-height: 50px;
+letter-spacing: 2px;background-color: #006337;
+border:  2px solid;
+color: rgb(251, 253, 236);
+padding: 0 10px;
+left: 13px;
+}
+.zIII > h3 {
+position: absolute;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 2px;background-color: #ffffff;
+border:  2px solid;
+color: #006337;
+padding: 0 40px;
+top: 360px;
+left: 18px;
+}
+
+.jogadoraV {
+    position: absolute;
+    height: 550px;
+    width: 1050px;
+    right: 20.5%;
+    bottom: 71.2%;
+}
+.lateralI {
+position: absolute;
+background-color: #006337;
+border: rgb(251, 253, 236) 1px solid;
+width: 220px;
+height: 300px;
+padding-top: 10px;
+top: 450px;
+left: 1060px;
+}
+.lI > h2 {
+position: absolute;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+line-height: 50px;
+letter-spacing: 2px;background-color: #006337;
+border:  2px solid;
+color: rgb(251, 253, 236);
+padding: 0 25px;
+left: 17px;
+}
+.lI > h3 {
+position: absolute;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 2px;background-color: #ffffff;
+border:  2px solid;
+color: #006337;
+padding: 0 10px;
+top: 360px;
+left: 23px;
+}
+
+.jogadoraVI {
+position: absolute;
+height: 550px;
+width: 1050px;
+right: 20.5%;
+bottom: 71.2%;
+}
+.lateralII {
+position: absolute;
+background-color: #006337;
+border: rgb(251, 253, 236) 1px solid;
+width: 220px;
+height: 300px;
+padding-top: 10px;
+top: 450px;
+right: 1080px;
+}
+.lII > img {
+    position: absolute;
+    left: 15px;
+}
+.lII > h2 {
+position: absolute;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+line-height: 50px;
+letter-spacing: 2px;background-color: #006337;
+border:  2px solid;
+color: rgb(251, 253, 236);
+padding: 0 25px;
+top: 293px;
+left: 35px;
+}
+.lII > h3 {
+position: absolute;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 2px;background-color: #ffffff;
+border:  2px solid;
+color: #006337;
+padding: 0 10px;
+top: 360px;
+left: 15px;
+}

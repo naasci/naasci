@@ -1,0 +1,149 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+header > .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f0dbbe;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+.am {
+    padding: 15px 0;
+}
+.am > .textoI {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 1300px;
+    border: 3px black solid;
+}
+.am > .textoI:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+    border: 3px white dashed;
+}
+.am > .textoII {
+    position: absolute;
+    top: 415px;
+    left: 550px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 700px;
+    border: 3px black solid;
+}
+.am > .textoII:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+    border: 3px white dashed;
+}
+.am > .textoIII {
+    position: absolute;
+    top: 396px;
+    left: 1150px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 50px;
+    border: 3px black solid;
+}
+.am > .textoIII:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+    border: 3px white dashed;
+}
+.album {
+    padding: 50px 0;
+    background-color: #fff;
+}
+.album h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.album-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-info img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.album-info p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

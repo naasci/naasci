@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --fonte: "Arsenal SC";
+}
+
+/* header */
+header {
+    font-family: var(--fonte);
+    background-color: white;
+}
+.menu {
+    position: sticky;
+    top: 0; 
+}
+.menu > ul {
+    color: #d5c27b;
+    height: 105px;
+    padding-left: 0;
+}
+.menu > ul > li {
+    position: relative;
+    top: 50px;
+    font-size: 15px;
+    display: inline-block;
+    padding: 5px 89px;
+}
+header > img {
+    width: 115px;
+    height: 135px;
+    position: fixed;
+    top: 1px;
+    left: 840px;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+.menu > ul > li > a:hover {
+    color: blue;
+    transition: linear 0.5s;
+}
+
+/* main */
+.inicio > img {
+    position: absolute;
+    top: 130px;
+    width: 1868px;
+    opacity: 90%;
+}
+.textoI {
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    padding-left: 15px;
+    margin-right: 800px;
+    font-family: var(--fonte);
+    font-size: 53px;
+    color: #0c0900;
+    background-color: #d5c27b;
+    cursor: default;
+}
+main > .inicio > .textoI > h1 > .sI:hover {
+    color: rgb(126, 0, 0);
+    transition: linear 0.1s;
+    cursor: pointer;
+}
+main > .inicio > .textoI > h1 > .sII:hover {
+    color: rgb(106, 134, 255);
+    transition: linear 0.1s;
+    cursor: pointer;
+}
+.textoII {
+    position: absolute;
+    top: 550px;
+    left: 30px;
+    padding-left: 15px;
+    margin-right: 990px;
+    font-family: var(--fonte);
+    font-size: 35px;
+    color: #0c0900;
+    background-color: #d5c27b;
+    cursor: default;
+}
+.nI {
+    position: relative;
+    top: 800px;
+    left: 30px;
+    width: 500px;
+    height: 100px;
+    background: red;
+
+}
+.nII {
+    position: relative;
+    top: 700px;
+    left: 680px;
+    width: 500px;
+    height: 100px;
+    background: rgb(255, 255, 255);
+}
+.nIII {
+    position: relative;
+    top: 600px;
+    left: 1330px;
+    right: 30px;
+    width: 500px;
+    height: 100px;
+    background: rgb(0, 60, 255);
+}
